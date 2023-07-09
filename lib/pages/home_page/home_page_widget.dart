@@ -90,6 +90,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
               ),
               Text(
                 FFAppState().test,
+                textAlign: TextAlign.center,
                 style: FlutterFlowTheme.of(context).bodyMedium,
               ),
               Align(
